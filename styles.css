@@ -1,0 +1,161 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f4f8;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .container {
+    width: 500px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    max-height: 90vh;
+    overflow-y: auto;
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  h1 {
+    color: #2c3e50;
+    font-size: 28px;
+    margin: 0;
+  }
+  
+  h2 {
+    color: #34495e;
+    font-size: 22px;
+    margin-top: 0;
+    margin-bottom: 15px;
+  }
+  
+  .input-section {
+    margin-bottom: 30px;
+  }
+  
+  .input-group {
+    display: flex;
+    margin-bottom: 15px;
+  }
+  
+  input[type="text"], select {
+    flex-grow: 1;
+    padding: 12px 16px;
+    border: 1px solid #bdc3c7;
+    border-radius: 6px;
+    font-size: 16px;
+  }
+  
+  button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 12px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+  
+  .skills-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .skills-list li {
+    background-color: #ecf0f1;
+    margin-bottom: 8px;
+    padding: 12px 16px;
+    border-radius: 6px;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .skills-list li i {
+    cursor: pointer;
+    color: #e74c3c;
+  }
+  
+  .skills-list li i:hover {
+    color: #c0392b;
+  }
+  
+  .analyze-btn {
+    display: block;
+    width: 100%;
+    margin-top: 30px;
+    background-color: #2ecc71;
+    font-size: 18px;
+    padding: 14px;
+  }
+  
+  .analyze-btn:hover {
+    background-color: #27ae60;
+  }
+  
+  #results {
+    margin-top: 30px;
+    border-top: 1px solid #ecf0f1;
+    padding-top: 30px;
+  }
+  
+  .result-group {
+    margin-bottom: 20px;
+  }
+  
+  .result-group h3 {
+    color: #34495e;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .result-group p {
+    background-color: #ecf0f1;
+    padding: 15px;
+    border-radius: 6px;
+    font-size: 16px;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  i {
+    margin-right: 8px;
+  }
+  
+  .skill-tag {
+    display: inline-block;
+    background-color: #3498db;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 6px;
+    margin: 4px;
+    font-size: 14px;
+  }
+  
+  @keyframes shake {
+    0%, 100% { transform: translateX(0); }
+    10%, 30%, 50%, 70%, 90% { transform: translateX(-5px); }
+    20%, 40%, 60%, 80% { transform: translateX(5px); }
+  }
+  
+  .shake {
+    animation: shake 0.5s;
+  }
